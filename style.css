@@ -31,6 +31,22 @@ nav ul li a{
 nav ul li a:hover{
     color: orange;
 }
+.header{
+    margin-left: 8%;
+    margin-top: 8%;
+}
+.header h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+span{
+    color: orange;
+}
+.header p{
+    color: #555;
+    line-height: 22px;
+}
 .details{
     margin-left: 8%;
     margin-top: 8%;
@@ -64,12 +80,17 @@ span{
     bottom: 0;
     right: 0%;
 }
-/*.images img{
-    height: 100%;
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
-    transition: bottom 1s, left 1s;
-}*/
+.projects{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0px;
+    align-items:center;
+    justify-content: space-between;
+}
+.projects h1{
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
 
